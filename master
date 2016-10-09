@@ -41,7 +41,6 @@ void initSensors()
 void setup(void)
 {
   Serial.begin(115200);
-  Serial.println("Adafruit 9 DOF Pitch/Roll/Heading Example"); Serial.println("");
   
   /* Initialise the sensors */
   initSensors();
