@@ -9,9 +9,6 @@ Adafruit_9DOF                 dof   = Adafruit_9DOF();
 Adafruit_LSM303_Accel_Unified accel = Adafruit_LSM303_Accel_Unified(30301);
 Adafruit_LSM303_Mag_Unified   mag   = Adafruit_LSM303_Mag_Unified(30302);
 
-/* Update this with the correct SLP for accurate altitude measurements */
-float seaLevelPressure = SENSORS_PRESSURE_SEALEVELHPA;
-
 /**************************************************************************/
 /*!
     @brief  Initializes all the sensors used by this example
